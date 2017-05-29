@@ -4,8 +4,8 @@ machine:
 
 dependencies:
   override:
-    - docker build -t willrstern/sample-node .
+    - docker build -t djz721/sample-node .
 
 test:
   override:
-    - docker run willrstern/sample-node npm test
+    - docker run djz721/sample-node npm test

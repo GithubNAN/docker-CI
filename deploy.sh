@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build -t willrstern/sample-node .
+docker build -t djz721/sample-node .
 docker push willrstern/sample-node
 
 ssh deploy@159.203.127.59 << EOF
